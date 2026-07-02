@@ -48,16 +48,21 @@ The project also includes:
 
 ---
 
+## Requirements
+
+- Python 3.10 or later
+- Git
+
 ## Folder Structure
 
 ```
-gpu-metascheduler
+gpu-metascheduler/
 │
 ├── data/
 ├── models/
 ├── results/
 ├── src/
-├── venv/
+├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
@@ -69,7 +74,7 @@ gpu-metascheduler
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gpu-metascheduler.git
+git clone https://github.com/shiva-k-06/gpu-metascheduler.git
 ```
 
 Move into project
@@ -95,7 +100,7 @@ venv\Scripts\activate
 Install dependencies
 
 ```bash
-pip install gymnasium stable-baselines3 torch numpy pandas matplotlib
+pip install -r requirements.txt
 ```
 
 ---
